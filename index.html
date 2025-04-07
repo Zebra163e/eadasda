@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twoje Imię - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #35424a;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-left: 4px solid #35424a;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #35424a;
+    color: #fff;
+}
+
+/* Responsywność */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Twoje Imię</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#projects">Projekty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>Tutaj wpisz coś o sobie, np. umiejętności, doświadczenie.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Moje Projekty</h2>
+        <div class="project">
+            <h3>Nazwa Projektu 1</h3>
+            <p>Opis projektu. Możesz dodać <a href="#">link</a>.</p>
+        </div>
+        <div class="project">
+            <h3>Nazwa Projektu 2</h3>
+            <p>Opis projektu.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Email: twój@email.com</p>
+        <p>GitHub: <a href="https://github.com/twojanazwa">github.com/twojanazwa</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Twoje Imię. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
